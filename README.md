@@ -2,7 +2,7 @@
 
 Dynamic timed functions for Alexa + HomeAssistant
 
-HomeAssistant Discussion: 
+HomeAssistant Discussion:  https://community.home-assistant.io/t/alexa-dtf-dynamic-timed-functions
 
 ## Installation
 
