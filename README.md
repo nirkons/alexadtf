@@ -43,6 +43,8 @@ Since I chose the invocation name to be "Yourself", the usage would be:
 * Alexa, ask yourself to turn {off} the {computer} in {3 and a half hours}
 * Alexa, ask yourself to turn {off} the {TV} in {20 minutes}.
 
+Currently, cancelling will wipe all future actions, you can do this by saying:
+* Alexa, ask yourself to cancel
 
 ## Contributing
 Pull requests are welcome.
