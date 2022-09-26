@@ -25,9 +25,9 @@ Your webhook URL will be:
 * Create/Log in to your Alexa developer console at https://developer.amazon.com/alexa/console/ask 
 * Hit Create skill, enter a skill name, under 'Choose a model to add to your skill' select "Custom" and under "Choose a method to host your skill's backend resources" select "Alexa-Hosted (Python)"
 * Under "Choose a template to add to your skill" select "Hello world skill", let it create the skill.
-* Under invocation name, you can choose whichever skill name you prefer, I chose "Yourself" as the invocation so it would be "Alexa, ask yourself to..."
 * Under "Interaction model" click "JSON Editor" and paste the JSON code from [AlexaSkill.json](AlexaSkill.json) 
  in this repository
+ * Under invocation name, you can choose whichever skill name you prefer, I chose "Yourself" as the invocation so it would be "Alexa, ask yourself to..."
 * Click Build model and let it build
 * Go to the "Code" page and replace all the code in "lambda_function.py" with the code from [lambda_function.py](lambda_function.py)
  from this repository while changing the "base_url" value to your HomeAssistant webhook endpoint from Node-Red.
